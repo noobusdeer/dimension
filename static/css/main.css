@@ -743,7 +743,7 @@ button {
 
 /* BG */
 #cables {
-  moz-transform: scale(1.0);
+  -moz-transform: scale(1.0);
   -webkit-transform: scale(1.0);
   -ms-transform: scale(1.0);
   transform: scale(1.0);
