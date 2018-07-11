@@ -5,29 +5,12 @@
 					</footer>
 
 			</div>
-		<!-- BG Cables -->
-			<script type="text/javascript" src="js/libs.core.min.js"></script>
-			<script type="text/javascript" src="js/cables.min.js"></script>
-			<script type="text/javascript"  src="js/moment.js"></script>
-			<script type="text/javascript" src="js/ops.js"></script>
-			
-			<script>
-				function showError(errId, errMsg) {}
-				function patchInitialized() {}
-				function patchFinishedLoading() {}
-		
-				document.addEventListener('DOMContentLoaded', function(event) {
-					CABLES.patch = new CABLES.Patch({
-						patchFile: 'js/Simple_Rotation.json',
-						prefixAssetPath: '',
-						glCanvasId: 'glcanvas',
-						glCanvasResizeToWindow: true,
-						onError: showError,
-						onPatchLoaded: patchInitialized,
-						onFinishedLoading: patchFinishedLoading,
-					});
-				});
-			</script>
+		<!-- BG Three.js -->
+			<script src="js/three.js"></script>
+			<script src="js/Detector.js"></script>
+			<script src="js/DeviceOrientationControls.js"></script>
+
+			<script src="js/bg.js"></script>
 
 		<!-- Scripts -->
 			<script src="/js/skel.min.js"></script>
